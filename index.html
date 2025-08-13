@@ -10,86 +10,56 @@
 <body>
 
     <!-- Cabeçalho -->
-    <header>
-        <h1>Curiosidades de Tecnologia</h1>
-        <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
-        
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Notícias</a>
-            <a href="#">Curiosidades</a>
-            <a href="#">Fale Conosco</a>
-        </nav>
+    <header class="header">
+        <div class="header-content">
+            <h1>Curiosidades de Tecnologia</h1>
+            <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Notícias</a>
+                <a href="#">Curiosidades</a>
+                <a href="#">Fale Conosco</a>
+            </nav>
+        </div>
     </header>
 
     <!-- Conteúdo principal -->
-    <main>
+    <main class="container">
 
-        <!-- Artigo principal -->
-        <article>
-            <h1>História do Mascote do Android</h1>
-
-            <p>
-                Provavelmente você sabe que o sistema operacional Android, mantido pelo Google, é um dos mais utilizados para dispositivos móveis em todo o mundo.
-                Mas talvez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa.
-                Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.
-            </p>
+        <!-- Artigo -->
+        <article class="post">
+            <h1 class="post-title">História do Mascote do Android</h1>
+            <p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google, é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas talvez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa. Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
 
             <h2>A primeira versão</h2>
-            <p>
-                A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill.
-                Ele conta que abriu o Inkscape (software livre para vetorização de imagens) e criou sua própria versão de robô.
-                O objetivo era apenas personificar o sistema apenas para a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.
-            </p>
+            <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado Dan Morrill. Ele conta que abriu o Inkscape e criou sua própria versão de robô. O objetivo era apenas personificar o sistema para a equipe.</p>
 
             <figure>
-                <img src="imagens/dan-droids.png" alt="Primeira versão dos Dandroids criada por Dan Morrill">
-                <figcaption>Primeira versão do mascote Android — "Dandroids".</figcaption>
+                <img src="imagens/dan-droids.png" alt="Primeira versão dos Dandroids">
+                <figcaption>Primeira versão do mascote Android — "Dandroids"</figcaption>
             </figure>
 
-            <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
-
             <h2>Surge um novo mascote</h2>
-            <p>
-                A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área.
-                A ilustradora russa Irina Blok, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.
-            </p>
+            <p>A ideia foi amadurecendo e passou para a ilustradora russa Irina Blok, que criou o icônico Bugdroid, com traços simples e marcantes.</p>
 
             <figure>
                 <img src="imagens/bugdroid.png" alt="Bugdroid, mascote oficial do Android">
-                <figcaption>Bugdroid — o mascote oficial do Android criado por Irina Blok.</figcaption>
+                <figcaption>Bugdroid — mascote oficial do Android</figcaption>
             </figure>
-
-            <p>
-                A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada.
-                O desenho também deveria gerar identificação rápida com quem o olha.
-                Surgiu então o Bugdroid, o novo mascote do Android.
-            </p>
 
             <figure>
                 <img src="imagens/irina-blok.jpg" alt="Irina Blok, criadora do Bugdroid">
-                <figcaption>Irina Blok — a criadora do Bugdroid.</figcaption>
+                <figcaption>Irina Blok — criadora do Bugdroid</figcaption>
             </figure>
 
-            <p>
-                A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta.
-                Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.
-            </p>
-
-            <!-- Placeholder para vídeo -->
             <div class="video-placeholder">[VIDEO]</div>
         </article>
 
         <!-- Conteúdo extra -->
-        <aside class="extra">
-            <h2>Quer aprender mais?</h2> 
-
-            <p>
-                Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, 
-                em ordem alfabética a partir da versão 1.5 até a 9.0.
-            </p>
-
-            <ul class="lista">
+        <aside class="sidebar">
+            <h2>Quer aprender mais?</h2>
+            <p>Cada versão do Android (até a 9.0) recebeu nome de doces, em ordem alfabética.</p>
+            <ul>
                 <li>1.5 - Cupcake</li>
                 <li>1.6 - Donut</li>
                 <li>3.0 - Eclair</li>
@@ -105,29 +75,13 @@
                 <li>8.0 - Oreo</li>
                 <li>9.0 - Pie</li>
             </ul>
-
-            <p>
-                Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações,
-                o que deu origem ao Android 10.
-            </p>
-
-            <p>
-                Acesse aqui o site <a href="#" target="_blank">Android History</a> para conhecer a sequência das versões "adocicadas"
-                e o que cada uma trouxe para o sistema Android.
-            </p>
-        </aside> 
-
-        <!-- Conclusão -->
-        <aside>
-            <p>
-                Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e seu simpático mascote.
-            </p>
+            <p>O Android Q não existiu. Desde então, o Google usa apenas numeração (Android 10 em diante).</p>
         </aside>
 
     </main>
 
     <!-- Rodapé -->
-    <footer>
+    <footer class="footer">
         <p>Site criado por Matondo Domingos Bunga.</p>
     </footer>
 
